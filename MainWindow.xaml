@@ -11,7 +11,7 @@
             <ColumnDefinition Width="37*"/>
             <ColumnDefinition Width="763*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="btnAllClea" Grid.Column="1" Content="清除" HorizontalAlignment="Left" Margin="37,41,0,0" VerticalAlignment="Top" Height="39" Width="120" FontSize="24"/>
+        <Button x:Name="btnAllClea" Grid.Column="1" Content="清除" HorizontalAlignment="Left" Margin="37,41,0,0" VerticalAlignment="Top" Height="39" Width="120" FontSize="24" Click="btnAllClea_Click"/>
         <Label Grid.Column="1" Content="公尺" HorizontalAlignment="Left" Margin="228,127,0,0" VerticalAlignment="Top" Height="42" Width="135" FontSize="22"/>
         <TextBox x:Name="txtCM" Grid.Column="1" HorizontalAlignment="Left" Margin="37,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="24" KeyUp="txtCM_KeyUp"/>
         <Label Grid.Column="1" Content="公分" HorizontalAlignment="Left" Margin="37,133,0,0" VerticalAlignment="Top" Height="43" Width="120" FontSize="22"/>
